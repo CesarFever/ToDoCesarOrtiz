@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>TODO List</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <H1 style="text-align: center;">TODO List</H1>
+        <hr style="height:2px;width:700px;border-width:0;color:gray;background-color:gray">
+
+        <div class="container" id="todolist"> 
+ 
+            <!-- Js generated html -->
+        <h2 style="text-align: center;">Add a TODO</h2>
+        <hr style="height:2px;width:700px;border-width:0;color:gray;background-color:gray">
+        
+        <div class="container" id="todoform" style="margin: auto; position: relative; text-align: center; top: 50%; width: 20%;">
+
+            <form class="form-inline">
+
+                <div class="form-group">
+                    <label for="todoitem">TODO:</label>
+                    <input type="text" id="todotext">
+                </div>
+
+                <button type="button" class="btn btn-primary" onclick="addNewTODO()">Add TODO</button>
+
+            </form>
+
+        </div>
+
+    </body>
+
+    <footer>
+        <script src="js/main.js"></script>
+    </footer>
+</html>
